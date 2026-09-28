@@ -1,0 +1,32 @@
+{
+  "headless": false,
+  "workingHours": { "start": 9, "end": 19, "days": [1, 2, 3, 4, 5] },
+  "profile": {
+    "targetTitles": ["Software Developer", "Software Engineer", "Backend Developer", "Full Stack Developer"],
+    "skills": ["TypeScript", "JavaScript", "Node.js", "React", "Python", "SQL", "AWS"],
+    "requiredLocations": ["Canada"],
+    "remoteOk": true,
+    "experienceYears": { "min": 2, "max": 3 },
+    "strictExperience": true,
+    "excludeTitleKeywords": ["Senior", "Sr", "Staff", "Principal", "Lead", "Architect", "Director", "Manager", "Intern", "Co-op"],
+    "mustHave": [],
+    "avoidKeywords": ["security clearance", "unpaid"],
+    "blockedCompanies": [],
+    "minScore": 50
+  },
+  "networking": {
+    "locations": ["Canada"],
+    "noteTemplate": "Hi {firstName}, I'm a developer based in Canada exploring new roles{reason}. I'd love to connect!",
+    "hiringPostNoteTemplate": "Hi {firstName}, I saw your post about the {role} role on your team. I have {years} years of relevant experience and would love to connect and learn more."
+  },
+  "limits": {
+    "invitesPerDay": 15,
+    "invitesPerWeek": 80,
+    "followsPerDay": 20,
+    "pageLoadsPerDay": 150,
+    "actionDelayMs": [45000, 120000],
+    "readDelayMs": [3000, 9000],
+    "maxInvitesPerRun": 3,
+    "noteMaxLength": 300
+  }
+}
